@@ -1,0 +1,80 @@
+#logo {
+    width: 10vw;
+    border: none;
+    margin: 0;
+}
+
+h1 {
+    font-family: Pokemon Solid;
+    color: #FFCC00;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: #225AAA;
+    letter-spacing: 6px;
+    font-size: 1.4vw;
+    margin-top: -2.2vw;
+}
+
+p {
+    font-family: Pokemon Solid;
+    margin-top: -30px;
+}
+
+img {
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+body {
+    text-align: center;
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#main {
+    margin: 0 auto;
+    text-align: center;
+    width: 600px;
+}
+
+#btn-startgame, #btn-resetgame  {
+    padding: 10px;
+    margin: 5px;
+    font-size: 1vw;
+    font-family: Pokemon Solid;
+    letter-spacing: 3px;
+    color: #FFCC00;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: #225AAA;
+    background-color: #FE0801;
+    border-radius: 20%;
+    border-color: #225AAA;
+}
+
+#btn-startgame:hover, #btn-resetgame:hover  {
+    background-color: #fff;
+}
+
+#winpopup {
+    display: none;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 25%;
+    width: 100%; /* Full width */
+    height: 50%; /* Full height */
+    overflow: none; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+#winpikachu {
+    width: 25%;
+    border: none;
+}
+
+#container {
+    background-color: #fff;
+}
