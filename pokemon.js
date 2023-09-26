@@ -72,7 +72,7 @@ function checkMatch() {
         matchCounter++;
         console.log(matchCounter);
         if (matchCounter == cDeck.length/2) {
-            setTimeout(gameOver, 1000);
+            setTimeout(gameOver, 300);
         }
     }
     if (firstCard !== secondCard) {
