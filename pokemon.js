@@ -59,7 +59,7 @@ function flipCardOpen() {
         secondCardId = this.name + clickCounter;
         this.id = secondCardId;
         document.getElementById(secondCardId).removeEventListener("click", flipCardOpen);
-        setTimeout(checkMatch, 300);
+        setTimeout(checkMatch, 500);
         attempts = clickCounter/2;
         document.getElementById("attempts").innerHTML = "Attempts: " + attempts;
     }
